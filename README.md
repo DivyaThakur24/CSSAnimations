@@ -9,8 +9,12 @@ To use CSS animation, you must first specify some keyframes for the animation.
 
 Keyframes hold what styles the element will have at certain times.
 
+- - - -
+
 ![alt text](https://media.giphy.com/media/S4yxvBouu2ili/giphy.gif)
 ![alt text](https://media.giphy.com/media/e53WDNesxxVn2/giphy.gif)
+
+- - - -
 
 *The @keyframes Rule*
 
@@ -23,6 +27,8 @@ When you specify CSS styles inside the `@keyframes` rule, the animation will gra
     to {background-color: yellow;}
 }
 ```
+
+- - - -
 
 *Delay an Animation & Duration of an Animation*
 
@@ -50,6 +56,8 @@ div {
     animation-delay: 2s;
 }
 ```
+- - - -
+
 *Set How Many Times an Animation Should Run*
 
 The `animation-iteration-count` property specifies the number of times an animation should run.
@@ -60,10 +68,12 @@ The `animation-direction` property specifies whether an animation should be play
 
 The animation-direction property can have the following values:
 
-`normal` - The animation is played as normal (forwards). This is default
-`reverse` - The animation is played in reverse direction (backwards)
-`alternate` - The animation is played forwards first, then backwards
-`alternate-reverse` - The animation is played backwards first, then forwards
+*`normal` - The animation is played as normal (forwards). This is default
+*`reverse` - The animation is played in reverse direction (backwards)
+*`alternate` - The animation is played forwards first, then backwards
+*`alternate-reverse` - The animation is played backwards first, then forwards
+
+- - - -
 
 *Specify the Speed Curve of the Animation*
 
@@ -71,9 +81,9 @@ The `animation-timing-function` property specifies the speed curve of the animat
 
 The `animation-timing-function` property can have the following values:
 
-`ease` - Specifies an animation with a slow start, then fast, then end slowly (this is default)
-`linear` - Specifies an animation with the same speed from start to end
-`ease-in` - Specifies an animation with a slow start
-`ease-out` - Specifies an animation with a slow end
-`ease-in-out` - Specifies an animation with a slow start and end
-cubic-bezier(n,n,n,n) - Lets you define your own values in a cubic-bezier function
+*`ease` - Specifies an animation with a slow start, then fast, then end slowly (this is default)
+*`linear` - Specifies an animation with the same speed from start to end
+*`ease-in` - Specifies an animation with a slow start
+*`ease-out` - Specifies an animation with a slow end
+*`ease-in-out` - Specifies an animation with a slow start and end
+*`cubic-bezier(n,n,n,n)` - Lets you define your own values in a cubic-bezier function
